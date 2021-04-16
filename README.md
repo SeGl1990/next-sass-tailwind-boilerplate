@@ -3,7 +3,7 @@
 [![ESLint Code Base](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/eslint.yml/badge.svg)](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/eslint.yml)
 [![Prettier and ESLint Code Base](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/prettier.yml/badge.svg)](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/prettier.yml)
 
-This is a next.js boilerplate with pre-commits and simple github actions.
+This is a next.js boilerplate with pre-commits, sass and tailwind and simple github actions.
 
 ## Getting Started
 
@@ -42,11 +42,11 @@ npm run format
 
 ### Basic Frontend Libraries
 
-|                                                                 | Stars                                                                                            | Bundle size                                                                                                                                   | Maintained |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| [next: 10.0.7](https://www.npmjs.com/package/next)              | ![GitHub stars](https://img.shields.io/github/stars/vercel/next.js.svg?label=%F0%9F%8C%9F)       | N/A                                                                                                                                           | ✅         |
-| [sass: 1.32.8](https://www.npmjs.com/package/sass)              | ![GitHub stars](https://img.shields.io/github/stars/sass/dart-sass.svg?label=%F0%9F%8C%9F)       | [![Bundle size](https://badgen.net/bundlephobia/minzip/sass/?label=%F0%9F%92%BE)](https://bundlephobia.com/result?p=sass@1.32.8)              | ✅         |
-| [tailwindcss: 2.1.1](https://www.npmjs.com/package/tailwindcss) | ![GitHub stars](https://img.shields.io/github/stars/tailwindlabs/tailwindcss?label=%F0%9F%8C%9F) | [![Bundle size](https://badgen.net/bundlephobia/minzip/tailwindcss/?label=%F0%9F%92%BE)](https://bundlephobia.com/result?p=tailwindcss@2.1.1) | ✅         |
+|                                                                 | Stars                                                                                            | Bundle size                                                                                                                                   | Maintained | Dev- Mode |
+| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------- |
+| [next: 10.1.3](https://www.npmjs.com/package/next)              | ![GitHub stars](https://img.shields.io/github/stars/vercel/next.js.svg?label=%F0%9F%8C%9F)       | N/A                                                                                                                                           | ✅         | ➖        |
+| [sass: 1.32.8](https://www.npmjs.com/package/sass)              | ![GitHub stars](https://img.shields.io/github/stars/sass/dart-sass.svg?label=%F0%9F%8C%9F)       | [![Bundle size](https://badgen.net/bundlephobia/minzip/sass/?label=%F0%9F%92%BE)](https://bundlephobia.com/result?p=sass@1.32.8)              | ✅         | ➖        |
+| [tailwindcss: 2.1.1](https://www.npmjs.com/package/tailwindcss) | ![GitHub stars](https://img.shields.io/github/stars/tailwindlabs/tailwindcss?label=%F0%9F%8C%9F) | [![Bundle size](https://badgen.net/bundlephobia/minzip/tailwindcss/?label=%F0%9F%92%BE)](https://bundlephobia.com/result?p=tailwindcss@2.1.1) | ✅         | ✔️        |
 
 ### Automated Workflow Libraries
 
