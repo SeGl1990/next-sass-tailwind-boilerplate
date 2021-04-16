@@ -1,7 +1,7 @@
 # A Next.Js Boilerplate
 
-[![ESLint Code Base](https://github.com/SeGl1990/next-boilerplate/actions/workflows/eslint.yml/badge.svg)](https://github.com/SeGl1990/tk-blog/actions/workflows/eslint.yml)
-[![Prettier and ESLint Code Base](https://github.com/SeGl1990/next-boilerplate/actions/workflows/prettier.yml/badge.svg)](https://github.com/SeGl1990/tk-blog/actions/workflows/prettier.yml)
+[![ESLint Code Base](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/eslint.yml/badge.svg)](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/eslint.yml)
+[![Prettier and ESLint Code Base](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/prettier.yml/badge.svg)](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/prettier.yml)
 
 This is a next.js boilerplate with pre-commits and simple github actions.
 
@@ -10,8 +10,10 @@ This is a next.js boilerplate with pre-commits and simple github actions.
 Install the dependencies
 
 ```bash
-# start the development server
+# install all dependencies
 npm i
+npm i --save-dev husky@4.3.8
+npm i --save-dev eslint babel-eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier @commitlint/cli lint-staged
 ```
 
 Run the development server:
