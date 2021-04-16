@@ -4,12 +4,12 @@ import Logo from '../components/Logo'
 export default function Home() {
   return (
     <div className='bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500'>
-      <div className='container'>   
+      <div className='container mx-auto min-h-screen'>
         <Head>
           <title>Create Next App with Pre-Commits, sass and tailwind</title>
           <link rel='icon' href='/favicon.ico' />
         </Head>
-        <main className='main'>
+        <main className='main align-middle text-center'>
           <div className='max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl bg-opacity-25 backdrop-filter backdrop-blur-lg'>
             <div className='md:flex'>
               <div className='md:flex-shrink-0'>
@@ -20,12 +20,12 @@ export default function Home() {
                 />
               </div>
               <div className='p-8'>
-                <div className='uppercase tracking-wide text-sm font-semibold'>
+                <h1 className='uppercase tracking-wide font-semibold'>
                   Welcome to{' '}
                   <a href='https://nextjs.org' className='text-indigo-500'>
                     Next.js!
                   </a>
-                </div>
+                </h1>
                 <p className='block mt-1 text-lg leading-tight font-medium text-black'>
                   With pre-commits, sass and tailwind
                 </p>
