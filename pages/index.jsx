@@ -4,7 +4,7 @@ import Logo from '../components/Logo'
 export default function Home() {
   return (
     <div className='bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500'>
-      <div className='container'>
+      <div className='container'>   
         <Head>
           <title>Create Next App with Pre-Commits, sass and tailwind</title>
           <link rel='icon' href='/favicon.ico' />
