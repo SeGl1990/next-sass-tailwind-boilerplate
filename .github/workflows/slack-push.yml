@@ -13,4 +13,4 @@ jobs:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: abinoda/slack-action@master
       with:
-        args: '{\"channel\":\"C020479G19T\",\"blocks\":[{\"type\":\"section\",\"text\":{\"type\":\"mrkdwn\",\"text\":\"*Commit message:* ${{ github.event.head_commit.message }}\"}},]}'
+        args: '{\"channel\":\"C020479G19T\",\"blocks\":[{\"type\":\"section\",\"text\":{\"type\":\"mrkdwn\",\"text\":\"*New Commit:* ${{ github.event.head_commit.message }}\"}},]}'
