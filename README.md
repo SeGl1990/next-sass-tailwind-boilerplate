@@ -47,6 +47,10 @@ npm run format
 - This boilerplate will automatically be uploaded to heroku with every push to a branch. Thereby [Jenkins](http://localhost:8080) is used as CI/CD tool.
 - [Production](https://next-sass-tailwind.herokuapp.com/)
 
+### Chat Bot
+
+- A Slack workspace which is used to display all notifications for the project. [Proceed to Slack](https://github-demoworkspace.slack.com/archives/C01V6GF9MM5)
+
 ### Basic Frontend Libraries
 
 |                                                                 | Stars                                                                                            | Bundle size                                                                                                                                   | Maintained | Dev- Mode |
@@ -57,8 +61,8 @@ npm run format
 
 ### Automated Workflow Libraries
 
-|                                                                                               | Stars                                                                                          | Bundle size                                                                                                                                                                | Maintained | Dev- Mode |
-| --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------- |
+|                                                                                              | Stars                                                                                          | Bundle size                                                                                                                                                                | Maintained | Dev- Mode |
+| -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------- |
 | [prettier: 2.2.1](https://www.npmjs.com/package/prettier)                                    | ![GitHub stars](https://img.shields.io/github/stars/prettier/prettier.svg?label=%F0%9F%8C%9F)  | [![Bundle size](https://badgen.net/bundlephobia/minzip/prettier/?label=%F0%9F%92%BE)](https://bundlephobia.com/result?p=prettier@2.2.1)                                    | ✅         | ✅        |
 | [eslint: 7.25.0](https://www.npmjs.com/package/eslint)                                       | ![GitHub stars](https://img.shields.io/github/stars/eslint/eslint.svg?label=%F0%9F%8C%9F)      | [![Bundle size](https://badgen.net/bundlephobia/minzip/eslint/?label=%F0%9F%92%BE)](https://bundlephobia.com/result?p=eslint@7.25.0)                                       | ✅         | ✅        |
 | [eslint-config-airbnb-base: 18.2.1](https://www.npmjs.com/package/eslint-config-airbnb-base) | ![GitHub stars](https://img.shields.io/github/stars/airbnb/javascript.svg?label=%F0%9F%8C%9F)  | [![Bundle size](https://badgen.net/bundlephobia/minzip/eslint-config-airbnb-base/?label=%F0%9F%92%BE)](https://bundlephobia.com/result?p=eslint-config-airbnb-base@18.2.1) | ⚠️         | ✅        |
