@@ -51,6 +51,7 @@ npm run format
 
 - A Slack workspace which is used to display all notifications for the project. [Proceed to Slack](https://github-demoworkspace.slack.com/archives/C01V6GF9MM5)
 - Added two workflows for slack notifications (one for every push and one for pull requests). [Proceed to Slack](https://github-demoworkspace.slack.com/archives/C020479G19T) Inspired by [this blog](https://spacejelly.dev/posts/how-to-use-github-actions-to-automate-tests-and-slack-notifications/)
+- [More GitHub rules](https://docs.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions#contexts)
 
 ### Basic Frontend Libraries
 
