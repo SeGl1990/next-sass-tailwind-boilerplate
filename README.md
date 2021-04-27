@@ -2,6 +2,7 @@
 
 [![ESLint Code Base](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/eslint.yml/badge.svg)](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/eslint.yml)
 [![Prettier and ESLint Code Base](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/prettier.yml/badge.svg)](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/prettier.yml)
+[![Build](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/build.yml/badge.svg)](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/build.yml)
 
 This is a next.js boilerplate with pre-commits, sass and tailwind and simple github actions.
 
@@ -39,6 +40,12 @@ npm run format
 - In order to follow best practices, very simple github actions have been implemented.
 - We check for EsLint errors (according to our .eslintrs.json rules)
 - We check the code for prettier violations (according to our .prettierrc file)
+- We check if the build process is completed successfully.
+
+### Automatic Deployment
+
+- This boilerplate will automatically be uploaded to heroku with every push to a branch. Thereby [Jenkins](http://localhost:8080) is used as CI/CD tool.
+- [Production](https://next-sass-tailwind.herokuapp.com/)
 
 ### Basic Frontend Libraries
 
