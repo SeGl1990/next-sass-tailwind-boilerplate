@@ -4,15 +4,16 @@
 [![Prettier and ESLint Code Base](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/prettier.yml/badge.svg)](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/prettier.yml)
 [![Build](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/build.yml/badge.svg)](https://github.com/SeGl1990/next-sass-tailwind-boilerplate/actions/workflows/build.yml)
 
-This is a next.js boilerplate with pre-commits, sass and tailwind and simple github actions.
+This is a next.js boilerplate with pre-commits, sass and tailwind and simple github actions. To see how to install the Pre-Commits, check my [blog post](https://severin-glaser.medium.com/add-pre-commit-to-your-next-js-web-application-with-eslint-prettier-husky-2021-edition-ff6b6c8cf416) first
 
 ## Getting Started
 
-Install the dependencies
+Install the dependencies, as we are using `npm`, make sure [Node.js](https://nodejs.org/en/download/) has been installed on your computer.
 
 ```bash
 # install all dependencies
 npm i
+# ONLY if the pre-commits are not working as expected, re-install all the development dependencies:
 npm i --save-dev husky@4.3.8
 npm i --save-dev eslint babel-eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier @commitlint/cli lint-staged
 ```
@@ -37,7 +38,7 @@ npm run format
 
 ### Github actions
 
-- In order to follow best practices, very simple github actions have been implemented.
+- In order to follow best practices, simple github actions have been implemented.
 - We check for EsLint errors (according to our .eslintrs.json rules)
 - We check the code for prettier violations (according to our .prettierrc file)
 - We check if the build process is completed successfully.
