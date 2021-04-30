@@ -27,7 +27,7 @@ export default function Home() {
                   </a>
                 </h1>
                 <p className='block mt-1 text-lg leading-tight font-medium text-black'>
-                  With pre-commits, sass and tailwind
+                  With CI/CD, Slack messages, sass and tailwind
                 </p>
                 <p className='description'>
                   Just run
