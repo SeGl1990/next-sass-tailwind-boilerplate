@@ -6,7 +6,7 @@ export default function Home() {
     <div className='bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500'>
       <div className='container mx-auto min-h-screen'>
         <Head>
-          <title>Create Next App with Pre-Commits, sass and tailwind</title>
+          <title>Create Next App with CI/CD, sass and tailwind</title>
           <link rel='icon' href='/favicon.ico' />
         </Head>
         <main className='main align-middle text-center'>
